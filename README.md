@@ -45,10 +45,12 @@ go run main.go London
 ```
 Example Output
 💻$_:
+
 🌍 Weather in London:
 🌡️  Temperature: 15.2°C
 💧 Humidity: 72%
 ☁️  Conditions: scattered clouds
 
 What I Learned:
+
 Building this project reinforced my understanding of taking CLI arguments in Go, establishing safe HTTP client connections, and creating precise structs to unmarshal external JSON payloads into memory-safe Go data structures.
