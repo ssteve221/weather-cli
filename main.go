@@ -28,7 +28,7 @@ func main() {
 		os.Exit(1)
 	}
 	city := os.Args[1]
-	apikey := "79e9c3f1490911f256eb104b6b9d9ac4"
+	apikey := "PLACE API FROM SITE HERE"
 	url := fmt.Sprintf("https://api.openweathermap.org/data/2.5/weather?q=%s&appid=%s&units=metric", city, apikey)
 
 	//make http request
